@@ -1,0 +1,3 @@
+std::vector<bool> vec; // ...some operations...
+bool b = vec[0]; //Undefined Behavior if vec is empty
+bool c = vec.at(0); //Throws exception if vec is empty
